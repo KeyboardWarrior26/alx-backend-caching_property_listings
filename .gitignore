@@ -1,0 +1,66 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django
+*.sqlite3
+*.log
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.mo
+
+# Environment
+env/
+ENV/
+venv/
+.venv/
+.venv.bak/
+.env
+.env.*
+
+# Migrations cache
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Docker
+*.pid
+*.tar
+docker-compose.override.yml
+
+# Pip
+pip-log.txt
+
+# Coverage
+htmlcov/
+coverage.xml
+*.cover
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# mypy / static analysis
+.mypy_cache/
+
+# JetBrains IDEs
+.idea/
+
+# WSL / Windows edge cases
+$RECYCLE.BIN/
+*.swp
+*.swo
